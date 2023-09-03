@@ -284,7 +284,7 @@ Since PHP 5, we can manipulate array value directly by passing them by reference
 
     // Older versions workaround
     foreach ($colors as $key => $color) {
-    $colors[$key] = strtoupper($color);
+        $colors[$key] = strtoupper($color);
     }
 ```
 Use quotes if you have array key as a string. It still works if you don’t, but that is not recommended. The reason is that PHP assume it as a constant if you don’t enclose in quotes, and PHP automatically converts it into a string if there is no defined constant in that name, that’s why it still works, but we are giving the compiler an extra load. Also if you already have a constant with the same name, you get weird results.
@@ -296,10 +296,12 @@ Use quotes if you have array key as a string. It still works if you don’t, but
 An in PHP is actually an ordered map. A map is a type that associates values to keys. This type is optimized for…
 php.net
 [PHP: array - Manual](http://php.net/manual/en/language.types.array.php?source=post_page-----e43234446fd3--------------------------------)
-Edit description
-php.net
 
 Happy Coding!
+
+
+
+
 
 
 Resource: 
