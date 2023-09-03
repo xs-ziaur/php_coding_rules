@@ -103,8 +103,8 @@ There are many naming standards with slight variations, like PSR-1: Basic Coding
 Mostly I use the following naming convention style
 ```
     ClassName
-    function_name
     methodName
+    function_name
     $variable_name
     CONSTANT_NAME
 ```
