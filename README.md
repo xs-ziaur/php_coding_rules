@@ -104,6 +104,7 @@ Mostly I use the following naming convention style
 ```
     ClassName
     function_name
+    methodName
     $variable_name
     CONSTANT_NAME
 ```
